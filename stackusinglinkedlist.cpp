@@ -115,6 +115,13 @@ int main()
                 << endl;
             }
             break;
+        case 4:
+            cout << "Exiting Program. " << endl;
+            break;
+        default:
+            cout << "Invalid choice. Try again." << endl;
+            break;
         }
+        cout << endl;
     }
 }
